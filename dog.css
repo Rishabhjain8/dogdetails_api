@@ -1,0 +1,48 @@
+#container{
+    background-image: linear-gradient(to right, rgb(0, 255, 200), yellow);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#breed{
+    width: 350px;
+    height: 30px;
+    margin-top: 40px;
+    padding: 6px;
+}
+
+#btn-image{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+#btn-next{
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    padding: 8px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid rgb(0, 255, 149);
+    color: rgb(0, 140, 255);
+}
+
+#image-container{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    
+}
+
+#image-container img{
+    height: 500px;
+    width: 600px;
+}
+
+#btn-next:hover{
+    background-color: rgb(0, 117, 252);
+    border: 2px solid rgb(0, 149, 255);
+    color: rgb(0, 255, 149);
+}
